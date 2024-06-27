@@ -1,0 +1,16 @@
+Implement the following in CAPL:
+Send request to retrieve the list of DTCs' res
+contains 35 bytes  that are confirmed and failed in this operating cycle. if DTC 0x123456 is present in the response, update a system variable “DTC_Status” to 1; else 0.
+Note:    The “List of DTC" response contains 35 byte
+
+On receiving a CANFD message “0x BB56789” from ECU.  Perform following with CAPL Node:
+Calculate checksum using formula:
+Part A = Addition of all the nibbles of the frame data (64 bytes of data)
+Part B = Addition of all the nibbles of (Frame ID (29bit Identifier)
+Checksum = ((Part A + Part B) Bitwise AND with 0xF).
+Compare the Checksum with, 64th byte lower nibble.
+If they are equal print “pass” on write window, else “fail”
+ 
+has context menu
+
+
