@@ -9,4 +9,4 @@ print("File IO")
 
 
 with open('my_numbers.txt','r+') as fd:
-    
+    print(fd)
