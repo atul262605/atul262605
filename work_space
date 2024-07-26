@@ -1,0 +1,29 @@
+<NotepadPlus>
+    <Project name="Project Name">
+        <Folder name="Folder Name">
+            <File name=".gitignore" />
+            <File name="capl_question.txt" />
+            <File name="Decorator.py" />
+            <File name="desktop.ini" />
+            <File name="Dict.py" />
+            <File name="Duck_Typing.py" />
+            <File name="effective_py.py" />
+            <File name="Exception_Handling.py" />
+            <File name="Filie_handling.py" />
+            <File name="hello.py" />
+            <File name="interv.py" />
+            <File name="Interview_Q.py" />
+            <File name="Lambda.py" />
+            <File name="my_numbers.txt" />
+            <File name="oops.py" />
+            <File name="os_path.py" />
+            <File name="Python Scripts.zip" />
+            <File name="Read_DTC_By_SM.cpp" />
+            <File name="regex.py" />
+            <File name="Software_Tokens - 2024-06-12T143316.424.zip" />
+            <File name="String_.py" />
+            <File name="subprocess.py" />
+            <File name="test.txt" />
+        </Folder>
+    </Project>
+</NotepadPlus>
