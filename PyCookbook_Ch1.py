@@ -9,7 +9,7 @@ print("cookbook Chapter1")
 
 #move all the zero begining of the array
 
-arr=[1,2,0,4,3,0,5,0]
+arr=[0,1,2,0,4,3,0,5,0]
 
 j=0
 
@@ -22,19 +22,19 @@ print(arr)
 
 #move all the zero at the end of array
 
-arr1 = [1,2,0,4,3,0,5,0]
+arr1 = [0,1,2,0,4,3,0,5,0]
 
 n=len(arr1)
 
-j=len(n-1)
-
-for i in range(n-2,0):
-    
+j=n-1
+i=0
+while(i<j):
     if not arr1[j]:
         j-=1
         continue
-    if not arr[i]:
-        arr1[j],arr1[i]=arr1[i],arr1[j]
-        j-=1
-print(arr1)
 
+    if not arr1[i]:
+        arr1[j], arr1[i] = arr1[i], arr1[j]
+        j-=1
+    i+=1
+print(arr1)
