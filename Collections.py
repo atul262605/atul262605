@@ -98,24 +98,40 @@ print(d3)
 #del d3['a'] #KeyError: "Key not found in the first mapping: 'a'"
 
 
+#------------------------------------------------------------------------------
+#named tuple 
+
+from collections import namedtuple
+
+Student= namedtuple('Student', ['name','age','dob'])
+
+#adding values
+
+s1=Student('Atul',35, '26/10/1988')
+
+
+#print('age of student',s1[1])
+
+
+#print('Name of student',s1.name)
 
 
 
+#creation of  named tuple
+
+point=namedtuple('point',['x','y'])
+
+
+P1=point(12,34)
+
+
+#print(P1.x)
 
 
 
+#------------------------------------------------------------------------------
 
+from collections import deque
 
-
-
-
-
-
-
-
-
-
-
-
-
+#Doubly ended queue
 
