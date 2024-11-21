@@ -38,7 +38,7 @@ for char in s1:
 #print(d1)
 #print(d2)
 
-if (all(d1[key]==d2[key] for key in d1)):
+if all(d1[key]==d2[key] for key in d1):
     print("Both strings are anagram")
 else:
     print("not anagram !!!")
@@ -109,7 +109,7 @@ def Replace_Duplicate(test_str,repl_dict):
         else:
             s.add(ele)
     #print(res)
-    return (test_list)
+    return test_list
 
 #print(Replace_Duplicate(s, d))
 
@@ -481,7 +481,7 @@ word_list=string.split()
 
 #------------------------------------------------------------------------------
 
- 
+print("hello world")
 
 
 
