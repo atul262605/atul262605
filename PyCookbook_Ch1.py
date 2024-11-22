@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul  9 19:21:43 2024
+Created on Tue Jul  9 19:21:43 2023
 
-@author: atul.sharma
+@author: Pooja Bhalekar
 """
 
 print("cookbook Chapter1")
 
-# move all the zero begining of the array
+'''# move all the zero begining of the array'''
 
 arr = [0, 1, 2, 0, 4, 3, 0, 5, 0]
 
@@ -20,7 +20,7 @@ for i in range(1, len(arr)):
 
 # print(arr)
 # ----------------------------------------------------------------
-# move all the zero at the end of array
+'''# move all the zero at the end of array'''
 
 arr1 = [0, 1, 2, 0, 4, 3, 0, 5, 0]
 
@@ -41,7 +41,7 @@ while i < j:
 # ----------------------------------------------------------------
 
 '''
-# diffrence  between set and get default
+# Diffrence  between set and get default
 # set default adds key in dict if it is not available
 # get only return the value does not add anything
 '''
@@ -133,10 +133,10 @@ for j in range(1, n):
                 res.append(ele)
                 break
         i += 1
-print(res)
-# print(neg_num)
+#print(res)
+
 # ----------------------------------------------------------------
-#
+
 
 
 
